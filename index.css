@@ -1,0 +1,24 @@
+.backgroundHere {
+    background-image: url('background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.frontText {
+    font-family: 'Poiret One', cursive;
+    font-size: 5em;
+    color: aqua;
+    padding-top: 50vh;
+    padding-right: 20vw;
+}
+@media (max-width: 1000px) {
+    .frontText {
+        font-size: 3em;
+    }
+}
+@media (max-width: 500px) {
+    .frontText {
+        font-size: 2em;
+    }
+}
