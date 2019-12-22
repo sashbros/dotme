@@ -6,50 +6,186 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap&subset=cyrillic,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">SASHBROS</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+    <!-- navigation bar part -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
+        <div class="container-fluid">
+            <a data-aos="fade-down" class="text-danger navbar-brand" href="#">SASHBROS</a>
+            <button class="bg-secondary navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link ml-3 mr-3" href="#">HOME <span class="sr-only">(current)</span></a>
+                        <a data-aos="fade-down" class="text-danger nav-link ml-3 mr-3" href="#">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ml-3 mr-3" href="#">CONTACT</a>
+                        <a data-aos="fade-down" class="text-danger nav-link ml-3 mr-3" href="#about">ABOUT ME</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link ml-3 mr-3 dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DROPDOWN</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
+                    <li class="nav-item">
+                        <a data-aos="fade-down" class="text-danger nav-link ml-3 mr-3" href="#mywork">MY WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-aos="fade-down" class="text-danger nav-link ml-3 mr-3" href="#">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- navigation end -->
     
-    <div class="backgroundHere">
-        <div class="container frontText">
-            <div>Hey there!</div>
-            <div>I am Sarvagna Shukla</div>
+    <!-- main screen part -->
+    <section>
+        <div class="backgroundHere">
+            <div class="container frontText">
+                <div data-aos="fade-right" style="font-family: 'Poiret One', cursive !important;">{ sarvagna</div>
+                <div data-aos="fade-right" style="font-family: 'Poiret One', cursive !important;"><b>&emsp;&emsp;&emsp;shukla</b> }</div>
+            </div>
         </div>
-    </div>
-    <div class="container">
-        <div>
-            WHO AM I?
+    </section>
+    <!-- main screen end -->
+
+    <!-- about me -->
+    <section id="about" style="background-color: whitesmoke;" class="bg-grey pt-5 pb-5">
+        <div class="container">
+            <div>
+                <h5 data-aos="fade-right" class="text-center font-weight-bold pt-5 mx-auto">ABOUT ME</h5>
+                <hr class="w-50 pt-5 mx-auto">
+            </div>
+            <div data-aos="fade-right" class="row mb-5 pt-5">
+                <div class="col-lg-6 pt-5">
+                    <img src="background.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 pt-5">
+                    <div class="text-center text-capitalize">some fun facts</div>
+                    <hr class="w-25 pt-3 mx-auto">
+                    <p class="">
+                        People call me "<i><b>Sashbros</b></i>". It must be my nickname. I live in Indore, MP. I play video games like it's my life.
+                        My favourite game is Uncharted 4 by Naughty Dog.<br>Single Player > Multi-Player Games. Not a huge fan of "listening music".
+                        I love to drive a car, although I don't know how to.
+                    </p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <!-- about me end -->
+
+    <!-- random quote -->
+    <section>
+        <blockquote class="pt-5 pb-5 quote-card blue-card">
+            <div class="container">
+                <p>
+                    Be nice to nerds. Chances are you'll end up working for one.
+                </p>
+                <cite>
+                    A Nerd
+                </cite>
+            </div>
+        </blockquote>
+    </section>
+    <!-- random quote end -->
+
+    <!-- my skills -->
+    <section style="background-color: white;" class="bg-grey pt-5 pb-5">
+        <div class="container">
+            <div>
+                <h5 class="text-center font-weight-bold pt-5 mx-auto">WHO AM I?</h5>
+                <hr class="w-50 pt-5 mx-auto">
+            </div>
+            <div class="row mb-5 pt-5">
+                <div class="col-lg-6 pt-5">
+                    <div class="text-center text-capitalize">my skills</div>
+                    <hr class="w-25 pt-3 mx-auto">
+                    <ul class="">
+                        <li class="">
+                            Game Developer
+                        </li><br>
+                        <li class="">
+                            Full Stack Developer
+                        </li><br>
+                        <li class="">
+                            Desktop Developer
+                        </li><br>
+                        <li class="">
+                            Mobile Developer <span style="padding-top: 5px; padding-bottom: 2px;" class="badge badge-pill badge-primary">Newbie</span>
+                        </li><br>
+                        <li class="">
+                            <span data-toggle="tooltip" data-placement="bottom" title="Yeah! Its a skill">Gamer</span>
+                        </li><br>
+                    </ul>
+                </div>
+                <div class="col-lg-6 pt-5">
+                    <img src="background.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- my skills end -->
+    
+    <hr class="w-75 mt-5 mx-auto">
+
+    <!-- i know something  -->
+    <section style="background-color: white;" class="bg-grey pt-5 pb-5">
+        <div class="container">
+            <div class="row mb-5 pt-5">
+                <div class="col-lg-6 pt-5">
+                    <img src="background.jpg" alt="" class="pt-4 img-fluid">
+                </div>
+                <div class="col-lg-6 pt-5">
+                    <div class="text-center text-capitalize">I know something!</div>
+                    <hr class="w-25 pt-3 mx-auto">
+                    <ul class="">
+                        <li class="">
+                            Game Programming in C#
+                        </li><br>
+                        <!-- <div class="progress" style="height: 15px;">
+                            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:75%">75%</div>
+                        </div><br> -->
+                        <li class="">
+                            Unity3D
+                        </li><br>
+                        <li class="">
+                            Python <span style="padding-top: 5px; padding-bottom: 2px;" class="badge badge-success">Flask and Django</span>
+                        </li><br>
+                        <li class="">
+                            HTML5/CSS/SASS/Bootstrap
+                        </li><br>
+                        <li class="">
+                            ReactJS
+                        </li><br>
+                        <li class="">
+                            MySQL
+                        </li>
+                    </ul>
+                    <div class="container">
+                        <button class="ml-4 btn btn-danger" type="button" data-toggle="tooltip" data-placement="bottom" title="Want to know more??">
+                            Download my CV
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- i know something end -->
+
+
+    <section id="mywork" style="background-color: whitesmoke;" class="bg-grey pt-5 pb-5">
+        <div class="container">
+            <div>
+                <h5 data-aos="fade-right" class="text-center font-weight-bold pt-5 mx-auto">MY WORK</h5>
+                <hr class="w-50 pt-5 mx-auto">
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- Optional JavaScript -->
@@ -57,5 +193,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
