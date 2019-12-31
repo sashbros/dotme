@@ -121,3 +121,59 @@
 .icons:hover {
     color: white;
 }
+
+
+.corner-ribbon{
+    width: 200px;
+    background: linear-gradient(#8F0808 0%, #F70505 100%);;
+    position: absolute;
+    top: 25px;
+    left: -50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  /* Custom styles */
+  
+  .corner-ribbon.sticky{
+    position: fixed;
+  }
+  
+  .corner-ribbon.shadow{
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+  }
+  
+  /* Different positions */
+  
+  .corner-ribbon.top-left{
+    top: 25px;
+    left: -50px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  
+ .corner-ribbon::before {
+    content: '';
+    position: absolute; 
+    left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #8F0808;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #8F0808;
+ }
+ .corner-ribbon::after {
+    content: '';
+    position: absolute; 
+    right: 0%; top: 100%;
+    z-index: -1;
+    border-right: 3px solid #8F0808;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #8F0808;
+ }
