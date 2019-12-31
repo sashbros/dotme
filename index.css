@@ -10,7 +10,14 @@
     background-size: cover;
     height: 100vh;
 }
-
+.lastBackground {
+    background-image: url('images/bg2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
 
 .frontText {
     font-family: 'Poiret One', cursive !important;
@@ -97,4 +104,20 @@
 }
 .animate {
     animation: forwards;
+}
+.namePlate {
+    color: white;
+    text-decoration: none;
+}
+.namePlate:hover {
+    color: rgba(245, 245, 245, 0.705);
+    text-decoration: none;
+}
+
+.icons {
+    width: 30px;
+    color: rgba(255, 255, 255, 0.13);
+}
+.icons:hover {
+    color: white;
 }
